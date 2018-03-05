@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+* {
+    margin: 0;
+    padding: 0;   
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+
+.main-page{
+    background-image: url("Images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.orar-section, .table-title{
+    -moz-border-radius-topleft: 17px;
+    -webkit-border-top-left-radius: 17px;
+    border-top-left-radius: 17px;
+    -moz-border-radius-topright: 17px;
+    -webkit-border-top-right-radius: 217px;
+    border-top-right-radius: 17px;
+}
+.orar-section{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    background-color: white;
+
+}
+.table-title{
+    background-image: url("Images/title.png");
+    background-repeat: no-repeat;
+    background-color: #fb634b;
+    
+    
+}
+.table-title, .content-table{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.day-of-the-week{
+    margin-right: auto;
+    padding-left: 20px;
+}
+.from-column, .until-column, .classroom-column, .frequency-column, .package-column{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80px;
+}
+
+.object-column, .professor-column ,.type-column,.day-of-the-wee{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 180px;
+}
+.content-table{
+    display: flex;    
+}
