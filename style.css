@@ -27,14 +27,18 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
-    margin-left: 100px;
+    margin-left: 85px;
     background-color: white;
+    -webkit-box-shadow: 24px 23px 26px -7px rgba(202,195,187,0.68);
+-moz-box-shadow: 24px 23px 26px -7px rgba(202,195,187,0.68);
+box-shadow: 24px 23px 26px -7px rgba(202,195,187,0.68);
 
 }
 .table-title{
     background-image: url("Images/title.png");
     background-repeat: no-repeat;
     background-color: #fb634b;
+    color:#ffffff;
     
     
 }
@@ -46,18 +50,45 @@
 .day-of-the-week{
     margin-right: auto;
     padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F8F9F9;
 }
-.from-column, .until-column, .classroom-column, .frequency-column, .package-column{
+.table-title > *{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.day-of-the-week , .content-table, .link {
+    color: #3e3b3b;    
+}
+.content-table{
+    display: flex;
+}
+.content-table > * {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content-table > .from-column, .until-column, .classroom-column, .frequency-column, .package-column, .table-title > .from-column, .until-column, .classroom-column, .frequency-column, .package-column {    
     width: 80px;
 }
 
-.object-column, .professor-column ,.type-column,.day-of-the-wee{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 180px;
+.content-table > .professor-column ,.day-of-the-wee, .table-title > .professor-column ,.day-of-the-wee{
+    
+    width: 190px;
 }
-.content-table{
-    display: flex;    
+.content-table > .object-column, .table-title > .object-column {
+    width: 230px;
+}
+.content-table > .type-column, .table-title > .type-column{
+    width: 120px;
+}
+
+.link{
+    text-decoration: none;
+    color: #3e3b3b;
+}
+.content-table > *:not(:empty):hover, .content-table > *:not(:empty):hover > *{
+    background-color: #D5D8DC;
+    color:#ffffff;
 }
