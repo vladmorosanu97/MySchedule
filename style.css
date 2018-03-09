@@ -69,11 +69,11 @@ box-shadow: 24px 23px 26px -7px rgba(202,195,187,0.68);
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.content-table > .from-column, .until-column, .classroom-column, .frequency-column, .package-column, .table-title > .from-column, .until-column, .classroom-column, .frequency-column, .package-column {    
+.content-table > .small-column, .table-title > .small-column {    
     width: 80px;
 }
 
-.content-table > .professor-column ,.day-of-the-wee, .table-title > .professor-column ,.day-of-the-wee{
+.content-table > .normal-column , .table-title > .normal-column {
     
     width: 190px;
 }
